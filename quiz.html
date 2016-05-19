@@ -1,0 +1,172 @@
+<DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="reset.css"></link>
+<link rel="stylesheet" type="text/css" href="format.css"></link>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="quiz.js"></script>
+<script src="jquery-cookie-master/src/jquery.cookie.js"></script>
+</head>
+<body>
+	<div class = "header">
+		<div class = "ribbon">
+		</div>
+		<div class = "banner">
+			<div class = "banner_cont">
+				<div class = "banner_login">
+
+				</div>
+				<div class = "banner_login_btn">
+					<a id = "99" href="login.html"></a>
+				</div>
+			</div>
+		</div>
+		<div class = "navbar">
+			<div class = "navbar_cont">
+				<a href="index.html">
+					<div class = "nav_button"> Home </div>
+				</a>
+				<a href="info.html">
+					<div class = "nav_button"> Information </div>
+				</a>
+				<a href="news.html">
+					<div class = "nav_button"> News </div>
+				</a>
+				<a href="calculator.html">
+					<div class = "nav_button"> Calculator </div>
+				</a>
+				<a href="quiz.html">
+					<div class = "nav_button"> Quiz </div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class = "wrapper">
+		<div class = "contentbox">
+			<h1> Quiz </h1>
+			<div class = "StrokeQuestions">
+
+				<h2> Strokes: </h2>
+
+				<form> <!-- Strokes: Question 1-->
+ 					<p> 1. What is the direct cause of strokes? </p>
+					<input type="radio" name="S1" value="inc" checked> Heavy alcohol consumption, paired with an unhealthy diet<br>
+					<input type="radio" name="S1" value="cor"> A blocked artery, depriving nutrients and blood flow to the brain <br>
+					<input type="radio" name="S1" value="inc"> A lack of exercise, resulting in obesity and high cholesterol
+					<br> </br>
+
+
+				 <!-- Strokes: Question 2-->
+ 					<p> 2. What is a Transient Ischemic Attack? </p>
+					<input type="radio" name="S2" value="inc" checked> It is caused when arteries in the brain are either leaking blood or bursting open <br>
+					<input type="radio" name="S2" value="cor"> When the brain is only cut off from blood for short amounts of time <br>
+					<input type="radio" name="S2" value="inc"> A restriction in blood supply to tissues, causing a shortage of oxygen and glucose needed for cellular metabolism
+					<br> </br>
+
+
+
+				 <!-- Strokes: Question 3-->
+ 					<p> 3. What are some of the after effects of stroke? </p>
+					<input type="radio" name="S3" value="cor" checked> Loss of movement of certain body parts, Depression, Difficulty thinking <br>
+					<input type="radio" name="S3" value="inc"> Loss of memory, loss of hair, loss of appetite <br>
+					<input type="radio" name="S3" value="inc"> Overall pain, Nightmares, Poor vision
+					<br> </br>
+
+
+				 <!-- Strokes: Question 4-->
+ 					<p> 4. What are some symptoms of strokes? </p>
+					<input type="radio" name="S4" value="cor" checked> Weakness in face and limbs, Trouble seeing, Trouble walking <br>
+					<input type="radio" name="S4" value="inc"> Dizziness, Nausea, Ringing ears <br>
+					<input type="radio" name="S4" value="inc"> Unexplained headaches, Stomach pains, Blurred vision
+					<br> </br>
+
+				<input type="button" value="check" onclick="checkAns1()"> </input>
+				<input type="reset" value="clear"> </input>
+				</form>
+
+			</div>
+
+			<div class = "PreventionQuestions">
+
+				<h2> Prevention & Treatment: </h2>
+
+				<form> <!-- P&T: Question 1-->
+ 					<p> 1. What are some factors that increase a risk of stroke?</p>
+					<input type="radio" name="P&T1" value="inc" checked> High blood pressure, Eating a lot of salty foods, High cholesterol <br>
+					<input type="radio" name="P&T1" value="inc"> High cholesterol, Regularly exercising, High alcohol consumption <br>
+					<input type="radio" name="P&T1" value="cor"> Arterial fibrillation, Diabetes, Smoking
+					<br> </br>
+
+				 <!-- P&T: Question 2-->
+ 					<p> 2. What can you do to reduce the risk of having a stroke? </p>
+					<input type="radio" name="P&T2" value="inc" checked> Don't smoke or drink excessively, Keep an active mind <br>
+					<input type="radio" name="P&T2" value="cor"> Exercise regularly, Get regular check-ups, Monitor cholesterol & blood pressure <br>
+					<input type="radio" name="P&T2" value="inc"> Don't excessively drink alcohol, Don't eat a lot of sugary foods, Drink plenty of water
+					<br> </br>
+
+				 <!-- P&T: Question 3-->
+ 					<p> 3. How does an individual treat a stroke? </p>
+					<input type="radio" name="P&T3" value="inc" checked> Rehabilitation can be useful depending on the circumstance <br>
+					<input type="radio" name="P&T3" value="inc"> Prevention is the best treatment <br>
+					<input type="radio" name="P&T3" value="inc"> Sometimes strokes cannot be treated, as the effects can be permanent <br>
+					<input type="radio" name="P&T3" value="cor"> All of the above
+					<br> </br>
+
+				<input type="button" value="submit" onclick="checkAns2()"> </input>
+				<input type="reset" value="clear"> </input>
+				</form>
+			</div>
+
+			<div class = "IMQuestions">
+
+				<h2> Integrative Medicine: </h2>
+
+				<form> <!-- IM: Question 1 -->
+					<p> 1. What is integrative medicine? </p>
+					<input type = "radio" name="IM1" value="inc" checked> A form of medicine that complements conventional medicine in such a way that promotes the health of the mind, body and spirit simultaneously <br>
+					<input type = "radio" name="IM1" value="inc" > A medical approach that focuses on prevention, rather than treatment, of a disease <br>
+					<input type = "radio" name="IM1" value="inc" > A popular form of medicine that has emerged as society has formed an increased dissatisfaction towards conventional medicine <br>
+					<input type = "radio" name="IM1" value="cor" > All of the above <br>
+					<br> </br>
+
+
+				<!-- IM: Question 2  -->
+					<p> 2. What are some examples of Integrative Medicine? </p>
+					<input type = "radio" name="IM2" value="cor" checked> Acupuncture, Meditation, Herbal medicine <br>
+					<input type = "radio" name="IM2" value="inc" > Preventative surgery, Medication, Psychiatry <br>
+					<input type = "radio" name="IM2" value="inc" > Immunisation, Yoga, Preventative drugs <br>
+					<br> </br>
+
+
+
+				 <!-- IM: Question 3  -->
+					<p> 3. How should one make effective use of Integrative Medicine? <p>
+					<input type = "radio" name="IM3" value="inc" checked> It has no proven benefits and should not be undertaken<br>
+					<input type = "radio" name="IM3" value="inc" > It should be solely committed to, and not mixed with any other forms of medicine, as it reduces its success <br>
+					<input type = "radio" name="IM3" value="cor" > It should be undertaken in conjunction with modern/Western medicine, in order to promote physical, mental and spiritual well being <br>
+					<br> </br>
+
+				<input type="button" value="submit" onclick="checkAns3()"> </input>
+				<input type="reset" value="clear"> </input>
+				</form>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class = "footer">
+		<a href="privacy.html">Privacy -- </a>
+		<a href="contact.html">Contact Us -- </a>
+		<a href="feedback.html">Feedback -- </a>
+		<a href="faq.html">FAQ</a>
+	</div>
+</body>
+</html>

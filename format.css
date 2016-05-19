@@ -1,0 +1,434 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #c4c4c4;
+}
+
+.header {
+	width:100%;
+	height:140px;
+	background-image: url("res/bannerBG.jpg");
+}
+
+.ribbon {
+	width:100%;
+	height:8px;
+}
+
+.banner {
+	width: 100%;
+	height: 100px;
+	background-image: url("res/bannerslice.jpg");
+}
+
+.banner_cont {
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+	width:960px;
+	position: relative;
+	background-image: url('res/banner3.jpg');
+}
+
+.navbar {
+	width: 100%;
+	height: 32px;
+	position: relative;
+}
+
+.navbar_cont {
+	width: 960px;
+	height: 32px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.nav_button {
+	width: 192px;
+	height: 32px;
+	position: relative;
+	top:0px;
+	float: left;
+	color: white;
+	text-align: center;
+	padding-top: 4px;
+	font-size: 18px;
+	font-family: roboto;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.nav_button:hover {
+	background-image: url('res/navhover2.png')
+}
+
+.banner_login {
+	width: 200px;
+	height: 36px;
+	position: relative;
+	text-align: right;
+	left: 740px;
+	top: 20px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 30px;
+	color: #660cca;
+}
+
+.banner_login_btn {
+	width: 50px;
+	height: 22px;
+	position: relative;
+	text-align: center;
+	left: 890px;
+	top: 20px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 16px;
+	color: #8f8f8f;
+}
+
+.loginCon {
+	width: 360px;
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	position:relative;
+	top:120px;
+	text-align: center;
+	padding:20px;
+	background: #ececec;
+}
+
+.login_btn:hover {
+	color: #323232;
+	background: #dcdcdc;
+}
+
+.login_btn {
+	width: 260px;
+	height: 50px;
+	position:relative;
+	top:40px;
+	margin-top: 20px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	cursor:pointer;
+}
+
+.login_btn_conf {
+	width: 260px;
+	height: 50px;
+	margin-top: 20px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	cursor:pointer;
+	background: #faf8f1;
+	color: #660cca;
+	border: 1px solid #660cca;
+	display: none;
+}
+
+.login_btn_back {
+	width: 100px;
+	height: 20px;
+	margin-top: 10px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	cursor:pointer;
+	background: #ececec;
+	color: #660cca;
+	border: none;
+	display: none;
+}
+
+.login_btn:hover {
+	text-decoration: underline;
+}
+
+.login_btn_back:hover {
+	text-decoration: underline;
+}
+
+.login_btn_conf:hover {
+	text-decoration: underline;
+}
+
+.login_input {
+	width:320px;
+	height:30px;
+	/*border: 1px solid #660cca;*/
+	color: #222222;
+	margin-top:20px;
+	padding-left: 5px;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	z-index: 1;
+	display: none;
+}
+
+.newsbox {
+	width: 890px;
+	height: 310px;
+}
+
+.contentbox {
+	width: 920px;
+	padding: 20px;
+	padding-bottom: 40px;
+	background-color: #faf8f1;
+	position: relative;
+	overflow: hidden;
+}
+
+.infoBasic {
+}
+
+.infoUser {
+
+}
+
+.newstext {
+	width: 540px;
+	height: 160px;
+	left: 340px;
+	position: relative;
+	top: 0px;
+}
+
+.homeText {
+	width: 920px;
+	padding: 20px;
+	overflow: hidden;
+	margin-bottom: 16px;
+	position: relative;
+}
+.homeTextlower {
+	width: 480px;
+	height: 289px;
+
+}
+
+.homepicture {
+	width: 420px;
+	height: 280px;
+	top: -300px;
+	left: 500px;
+	background-image: url("res/homepage.jpg");
+	position: relative;
+}
+
+.jumbotronCon {
+	width: 960px;
+	height: 289px;
+	overflow: hidden;
+}
+
+.jumbotron {
+	background-image: url("res/jumbotron.jpg");
+	width: 2880px;
+	height: 289px;
+	position:relative;
+}
+
+.calcCont {
+	width: 440px;
+	height: 240px;
+	top: 60px;
+	position: relative;
+	padding: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #ececec;
+}
+
+.calcText {
+	width: 400px;
+	height: 100px;
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display:none;
+}
+
+.calcBtns {
+	width: 380px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	color: #646464;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 28px;
+	text-align: center;
+}
+
+.calcCount {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 100px;
+	height: 50px;
+	color: #646464;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	display:none;
+}
+
+.btnCalc {
+	width: 100px;
+	height: 34px;
+	margin-right: 8px;
+	margin-left: 8px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	background: #faf8f1;
+	color: #660cca;
+	border: 1px solid #660cca;
+	display:none;
+}
+
+.btnCalc:hover {
+	text-decoration: underline;
+}
+
+.calcEnds {
+	width: 160px;
+	height: 50px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #660cca;
+	color: #ffffff;
+	border: 1px solid #660cca;
+	position: relative;
+	left: 140px;
+}
+
+.calcEnds:hover {
+	text-decoration: underline;
+}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	width: 960px;
+	height: 820px;
+	top:0px;
+	background-color: #faf8f1;
+	position: relative;
+}
+.footer {
+	width: 100%;
+	height: 26px;
+	padding-top: 6px;
+	position: fixed;
+	bottom:0px;
+	background-image: url("res/bannerBG.jpg");
+	float: left;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+}
+
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+h1 {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+h2 {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+h3 {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 500;
+}
+
+h4 {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 18px;
+	display:none;
+}
+
+h6 {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 300;
+}
+
+p {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+li {
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.newsimg {
+	top: -160px;
+	position: relative;
+	width = 320px;
+
+}
+
+.strokeQuestions{
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+}
+
+.PreventionQuestions{
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+
+}
+
+
+.IMQuestions{
+	color: #222222;
+	font-family: Roboto;
+	font-weight: 400;
+
+}
